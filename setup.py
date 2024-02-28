@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="lm_eval",
-    version="0.3.0",
+    name="mlmm",
+    version="0.1.0",
     author="Leo Gao",
     author_email="lg@eleuther.ai",
     description="A framework for evaluating autoregressive language models",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/EleutherAI/lm-evaluation-harness",
+    url="https://github.com/xaynetwork/mlmm-evaluation",
     packages=setuptools.find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
